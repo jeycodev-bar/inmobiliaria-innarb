@@ -1,0 +1,14 @@
+/* /src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* (Opcional) Estilos base que quieras añadir */
+body {
+
+    font-family: 'Michroma', sans-serif;
+
+    /* font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; */
+}

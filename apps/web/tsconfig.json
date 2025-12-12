@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "useDefineForClassFields": true,
+        "lib": [
+            "DOM",
+            "DOM.Iterable",
+            "ESNext"
+        ],
+        "allowJs": false,
+        "skipLibCheck": true,
+        "esModuleInterop": false,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "module": "ESNext",
+        "moduleResolution": "bundler", // El estándar moderno para bundlers como Vite
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true, // Vite maneja la compilación, TS solo hace el chequeo
+        "jsx": "react-jsx" // Habilita la nueva transformación JSX de React
+    },
+    "include": [
+        "src"
+    ], // Solo revisará los archivos dentro de 'src'
+    "references": [
+        {
+            "path": "./tsconfig.node.json"
+        }
+    ] // Para el config de Vite
+}

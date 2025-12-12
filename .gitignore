@@ -1,0 +1,36 @@
+# Dependencias
+node_modules/
+.pnpm-store/
+
+# Builds de producción
+dist/
+build/
+
+# Variables de entorno (¡MUY IMPORTANTE!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Base de datos (si tienes dumps locales que no quieres subir)
+*.sql
+!database/init.sql  # Excepción: Sí queremos subir el script de inicialización si existe
+
+# Archivos de subida (Uploads locales)
+apps/api/uploads/*
+!apps/api/uploads/.gitkeep # Mantenemos la carpeta pero vacía

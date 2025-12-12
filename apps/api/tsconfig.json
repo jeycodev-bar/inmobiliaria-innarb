@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        /* Opciones Base */
+        "target": "ES2022", // Usamos una versión moderna de JS
+        "module": "NodeNext", // <--- CLAVE: Genera ESM para Node.js
+        "moduleResolution": "NodeNext", // <--- CLAVE: Cómo se resuelven los imports
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        /* Chequeo Estricto */
+        "strict": true,
+        "skipLibCheck": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

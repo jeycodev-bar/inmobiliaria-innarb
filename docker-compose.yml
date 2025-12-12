@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  postgres-db:
+    image: postgres:16-alpine
+    container_name: cont_postgr_inmo
+    
+    # Apunta al .env de la API
+    env_file:
+      - ./apps/api/.env
+      
+    # Mapea las variables al contenedor
+    environment:
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_NAME}
+      
+    # Publica el puerto
+    ports:
+      - "${DB_PORT}:5432"
+      
+    # Define el volumen
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+      
+    restart: unless-stopped
+
+volumes:
+  postgres-data:
