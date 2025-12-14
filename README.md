@@ -1,4 +1,4 @@
-# 🏡 Innarb - Plataforma de Gestión Inmobiliaria
+# Innarb - Plataforma de Gestión Inmobiliaria
 
 **Innarb** es una solución integral "Full Stack" para la gestión, publicación y visualización de bienes raíces. Diseñada como una Single Page Application (SPA) moderna, conecta a administradores, agentes inmobiliarios y clientes finales a través de una experiencia de usuario fluida y segura.
 
