@@ -5,7 +5,7 @@
 ![Estado del Proyecto](https://img.shields.io/badge/Estado-Terminado-success)
 ![Licencia](https://img.shields.io/badge/Licencia-MIT-blue)
 
-## 🚀 Características Principales
+## Características Principales
 
 * **Arquitectura Monorepo:** Gestión unificada de Backend y Frontend.
 * **Gestión de Propiedades:** CRUD completo con carga de múltiples imágenes.
@@ -17,7 +17,7 @@
     * Búsqueda flotante y animaciones de interfaz.
 * **Seguridad:** Autenticación JWT, Hasheo de contraseñas y validación de datos.
 
-## 🛠️ Stack Tecnológico
+## Stack Tecnológico
 
 El proyecto utiliza el stack **PERN** modernizado con TypeScript:
 
@@ -27,7 +27,7 @@ El proyecto utiliza el stack **PERN** modernizado con TypeScript:
 * **Lenguaje:** TypeScript (Tipado estricto compartido).
 * **Infraestructura:** Docker (para DB), pnpm (gestor de paquetes).
 
-## 📂 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```bash
 inmobiliaria-innarb/
